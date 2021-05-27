@@ -37,9 +37,9 @@ function checkResult(){
 function reduceCount(){
      if(noc == 1){
          countofchances.innerText = String(noc);
-         showresult.innerText = "You Lost Try again!!";
-         alert("Play again!!");
-         location.reload()
+         showresult.innerText = "Try again!!";
+         alert("Play again!! Expected number is : "+reqnum);
+        replay();
      } else {
         noc = noc-1;
         countofchances.innerText = String(noc);
