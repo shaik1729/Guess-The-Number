@@ -1,0 +1,52 @@
+.form-control{
+    display: inline-block;
+    width: auto;
+}
+
+body{
+    background : url('https://wallpaperaccess.com/full/2024142.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.result_container{
+    align-items: center;
+    display: flex;
+    margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.result_container > h1{
+    text-align: center;
+    display: flex;
+}
+
+#chances_container{
+    text-align: center;
+}
+
+.input_container{
+  align-items: center;
+  text-align-last: center;
+}
+
+
+
+@media screen and (max-width: 992px) {
+  body {
+    background: url("https://wallpaperaccess.com/full/2024142.jpg");
+    width: 100%;
+    height: 100%;
+  }
+
+  .result_container > img{
+    width: 30%;
+    height: auto;
+  }
+
+  .input_container{
+    text-align: center;
+    margin: 90px 0px;
+  }
+}
